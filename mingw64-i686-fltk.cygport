@@ -35,5 +35,5 @@ src_install() {
 	cd ${B}
 	cyginstall
 
-	rm -fr ${D}${CROSS_DATADIR}/man/
+	rm -fr ${D}${CROSS_DATADIR}/{doc,man}/
 }
